@@ -6,6 +6,24 @@ body {
     color: white;
     line-height: 1.6;
 }
+/* Kontener na tło */
+.image-background {
+    position: fixed; /* Tło zostaje w miejscu podczas przewijania strony */
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1; /* Przesuwa tło pod inne elementy na stronie */
+}
+
+/* Samo zdjęcie */
+.image-background img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* Sprawia, że zdjęcie wypełnia cały ekran, ucinając nadmiar, ale nie psując proporcji */
+    object-position: center; /* Wyśrodkowuje zdjęcie */
+}
+
 .rodo-standardy .dropdown-menu {
     text-align: center;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
