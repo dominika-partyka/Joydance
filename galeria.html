@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="pl">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,16 +8,17 @@
     <link rel="shortcut icon" href="images/logo_jd.jpg">
     <link rel="stylesheet" href="CSS.css">
 </head>
+
 <body>
 
     <a href="#" id="goBackBtn" class="go-back">←</a>
     <a href="#" class="scroll-to-top" id="scrollToTopBtn">↑</a>
-    
-    
+
+
     <div class="image-background">
         <img src="images/tlo_statyczne.png" alt="Tło">
     </div>
-    
+
     <div class="container">
         <h1>
             <a href="index.html">Joy Dance <span>galeria</span></a>
@@ -27,22 +29,83 @@
             <a href="index.html">Strona główna</a>
             <a href="galeria.html">Galeria</a>
             <a href="aktualnosci.html">Aktualności</a>
-            <a href="rodo.html" >Klauzula RODO</a>
-            <a href="standardy.html" >Standardy ochrony małoletnich</a>
+            <a href="rodo.html">Klauzula RODO</a>
+            <a href="standardy.html">Standardy ochrony małoletnich</a>
         </div>
-   
-    
-        
+
+
+
         <div class="Menu">
             <table class="Podstrony">
                 <tr>
-                    <td><a href="index.html"><img src="images/index.png.png" alt="Strona główna"><br/>Strona Główna</a></td>
-                    <td><a href="aktualnosci.html"><img src="images/aktualnosci.png.png" alt="Wydarzenia"><br/>Wydarzenia</a></td>
-                   
-                </tr>  
+                    <td><a href="index.html"><img src="images/index.png.png" alt="Strona główna"><br />Strona Główna</a>
+                    </td>
+                    <td><a href="aktualnosci.html"><img src="images/aktualnosci.png.png"
+                                alt="Wydarzenia"><br />Wydarzenia</a></td>
+
+                </tr>
             </table>
         </div>
         <div class="gallery">
+
+            <img src="images/19.1.jpg">
+            <img src="images/19.2.jpg">
+
+            <img src="images/18.1.jpg">
+            <img src="images/18.2.jpg">
+
+            <img src="images/17.1.jpg">
+            <img src="images/17.2.jpg">
+
+            <img src="images/16.1.jpg">
+            <img src="images/16.2.jpg">
+
+            <img src="images/15.1.jpg">
+            <img src="images/15.2.jpg">
+
+            <img src="images/14.1.jpg">
+            <img src="images/14.2.jpg">
+
+            <img src="images/13.1.jpg">
+            <img src="images/13.2.jpg">
+
+            <img src="images/12.1.jpg">
+            <img src="images/12.2.jpg">
+
+            <img src="images/11.1.jpg">
+            <img src="images/11.2.jpg">
+
+            <img src="images/10.1.jpg">
+            <img src="images/10.2.jpg">
+
+            <img src="images/9.1.jpg">
+            <img src="images/9.2.jpg">
+
+            <img src="images/8.1.jpg">
+            <img src="images/8.2.jpg">
+
+            <img src="images/7.1.jpg">
+            <img src="images/7.2.jpg">
+
+            <img src="images/6.1.jpg">
+            <img src="images/6.2.jpg">
+
+            <img src="images/5.1.jpg">
+            <img src="images/5.2.jpg">
+
+            <img src="images/4.1.jpg">
+            <img src="images/4.2.jpg">
+
+            <img src="images/3.1.jpg">
+            <img src="images/3.2.jpg">
+
+            <img src="images/2.1.jpg">
+            <img src="images/2.2.jpg">
+
+            <img src="images/1.1.jpg">
+            <img src="images/1.2.jpg">
+
+
             <img src="images/wyd1.jpg" alt="wyd1.1">
             <img src="images/wyd1.2.jpg" alt="wyd1.2">
             <img src="images/wyd2.1.jpg" alt="wyd2.1">
@@ -80,43 +143,44 @@
         </div>
     </div>
 
-    
+
 
 
     <footer class="footer">
         <div class="footer-container">
-            <a href="index.html">Strona główna</a> 
-            <a href="galeria.html">Galeria</a> 
-            <a href="aktualnosci.html">Aktualności</a> 
-            <a href="rodo.html" >Klauzula RODO</a> 
-            <a href="standardy.html" >Standardy ochrony małoletnich</a>
+            <a href="index.html">Strona główna</a>
+            <a href="galeria.html">Galeria</a>
+            <a href="aktualnosci.html">Aktualności</a>
+            <a href="rodo.html">Klauzula RODO</a>
+            <a href="standardy.html">Standardy ochrony małoletnich</a>
         </div>
 
         <p class="footer-copyright">
             © 2025 Studio Tańca Fit&Cheer Wszelkie prawa zastrzeżone.
         </p>
     </footer>
-    
+
     <script src="JavaScript.js"></script>
     <script>
-        document.getElementById("menuIcon").addEventListener("click", function() { 
+        document.getElementById("menuIcon").addEventListener("click", function () {
             var menu = document.getElementById("dropdownMenu");
-        
+
             if (menu.style.display === "block") {
                 menu.style.display = "none";
             } else {
                 menu.style.display = "block";
             }
         });
-        
-        document.addEventListener("click", function(event) {
+
+        document.addEventListener("click", function (event) {
             var menu = document.getElementById("dropdownMenu");
             var icon = document.getElementById("menuIcon");
-        
+
             if (!menu.contains(event.target) && !icon.contains(event.target)) {
                 menu.style.display = "none";
             }
         });
     </script>
 </body>
+
 </html>
